@@ -1,0 +1,32 @@
+#app {
+    
+    font-family: 'DMserif', 'serif';
+
+    padding: 5em;
+
+    section {
+
+        display: flex;
+        flex-wrap: wrap;
+
+
+        p {
+            padding: 2em;
+            width: 40%;
+        }
+
+        div {
+            object-fit: cover ;
+            width: 30%;
+            height: 20%;
+        }
+    }
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    #app section p {
+        width: 100%;
+    }
+}
